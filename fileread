@@ -1,0 +1,4 @@
+#!/bin/bash
+value=$(<file_name)
+echo "$value"
+

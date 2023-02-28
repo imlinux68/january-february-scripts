@@ -1,0 +1,11 @@
+#!/bin/bash
+echo $0
+#read -p "enter first num: " num1
+#read -p "enter sec num: " num2
+#read -p "enter third num: " num3
+#read -p "enter fourth num: " num4
+
+args=("$@")
+
+bash sec_scr.sh ${args[0]} ${args[2]} 
+

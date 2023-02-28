@@ -1,0 +1,12 @@
+#!/bin/bash
+num1=$1
+num2=$2
+operator=$3
+if [[ $# -ne 3 ]]
+then
+	echo "ERROR"
+	exit
+else
+	sum=$(echo $num1 $operator $num2 | bc )
+fi
+echo "yur result is $sum"

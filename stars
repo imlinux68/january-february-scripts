@@ -1,0 +1,22 @@
+#!/bin/bash
+#####  FUNCTION BODY   #########
+function stardraw () {
+stars=4
+row=1
+while [[ $row -le $stars ]]
+	do
+	col=1
+		while [[ $col -le $stars ]]
+			do
+				echo -n "*"
+				echo -n " "
+				let col=col+1
+			done
+			echo ""
+		let row=row+1
+	done
+}
+
+# FUNCTION CALL
+
+stardraw
